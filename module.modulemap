@@ -4,9 +4,10 @@ module header1 {
 }
 module header2 {
   header "header2.h"
-  export *  
+  export *
 }
 module header3 {
   header "header3.h"
-  export *  
+  header "header3-conflict.h"
+  export *
 }
